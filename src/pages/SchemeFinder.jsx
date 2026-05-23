@@ -91,7 +91,45 @@ export default function SchemeFinder({ currentLang, userProfile, searchQuery }) 
     setFilteredSchemes(results);
   }, [stateFilter, occupationFilter, genderFilter, categoryFilter, incomeFilter, ageFilter]);
 
-  const uniqueStates = ["All", "Delhi", "Uttar Pradesh", "Bihar", "Madhya Pradesh", "Rajasthan", "Maharashtra", "Tamil Nadu", "Andhra Pradesh", "Karnataka"];
+  const uniqueStates = [
+    "All",
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
+    "Assam",
+    "Bihar",
+    "Chhattisgarh",
+    "Goa",
+    "Gujarat",
+    "Haryana",
+    "Himachal Pradesh",
+    "Jharkhand",
+    "Karnataka",
+    "Kerala",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Manipur",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Odisha",
+    "Punjab",
+    "Rajasthan",
+    "Sikkim",
+    "Tamil Nadu",
+    "Telangana",
+    "Tripura",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "West Bengal",
+    "Andaman and Nicobar Islands",
+    "Chandigarh",
+    "Dadra and Nagar Haveli and Daman and Diu",
+    "Delhi",
+    "Jammu and Kashmir",
+    "Ladakh",
+    "Lakshadweep",
+    "Puducherry"
+  ];
 
   return (
     <div className="max-w-7xl mx-auto space-y-8 animate-fade-in pb-16">
