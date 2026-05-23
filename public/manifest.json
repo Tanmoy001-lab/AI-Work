@@ -1,0 +1,17 @@
+{
+  "short_name": "JanSahayak AI",
+  "name": "JanSahayak AI - Indian Government & Education Assistant",
+  "description": "Your AI-Powered Indian Government & Education Assistant Platform. Get help in English and 8 regional Indian languages.",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1a56db",
+  "background_color": "#ffffff"
+}
